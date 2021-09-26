@@ -7,11 +7,11 @@ const Musician = (props) => {
             <img className="images" src={img} alt="" />
             <div className="description">
                 <h3>Band Name : {name}</h3>
-                <h5>Formed In : {formedIn}</h5>
-                <h5>Popular Album : {popularAlbum}</h5>
-                <h5>Genre : {genre}</h5>
-                <h4>Concert Charge : {concertCharge}</h4>
-                <button onClick={() => props.CartHandling(props.musician)} className="hire-btn">Hire For Concert</button>
+                <h5>Formed In :  <small>{formedIn}</small></h5>
+                <h5>Popular Album : <small>{popularAlbum}</small></h5>
+                <h5>Genre : <small>{genre}</small></h5>
+                <h4>Concert Charge : $ <i>{concertCharge}</i></h4>
+                <button onClick={() => props.CartHandling(props.musician)} className="hire-btn"><i className="fas fa-guitar"></i> Hire For Concert</button>
             </div>
         </div>
     );

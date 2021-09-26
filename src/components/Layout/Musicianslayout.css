@@ -1,6 +1,9 @@
 .Musicianslayout{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    background: #757F9A;
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A); 
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
 }
 .musicians{
     display: grid;
@@ -9,7 +12,12 @@
     grid-row-gap: 20px;
     padding-left: 50px;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 .musicians-cart{
-    padding-left: 50px;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
