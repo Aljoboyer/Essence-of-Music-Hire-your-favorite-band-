@@ -5,7 +5,8 @@
 .header nav {
     background-color: rgb(0, 0, 0);
     line-height: 70px;
-
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
 }
 .header nav a{
     text-decoration: none;
