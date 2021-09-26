@@ -1,6 +1,6 @@
 # Essence of Music
 
-This project link [Essence of Music]( Essence of Music).
+This project link [Essence of Music]( https://essence-of-music.netlify.app/).
 
 #Purpose:--The purpose of this website is online Music band hiring..
 
